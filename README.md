@@ -1,1 +1,1 @@
-# RailsGuideOnDocker
+# RailsTutorialOnDocker
