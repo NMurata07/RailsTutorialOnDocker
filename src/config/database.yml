@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: app_raisl_tutorial_production
-  username: app_raisl_tutorial
-  password: <%= ENV['APP_RAISL_TUTORIAL_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5 
