@@ -4,8 +4,8 @@ ENV LANG C.UTF-8
 
 RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs && rm -rf /var/lib/apt/lists/*
 
-RUN mkdir /app_raisl_tutorial
-ENV APP_ROOT /app_raisl_tutorial
+RUN mkdir /app_rails_tutorial
+ENV APP_ROOT /app_rails_tutorial
 WORKDIR ${APP_ROOT}
 
 ADD ./src/Gemfile $APP_ROOT/Gemfile
